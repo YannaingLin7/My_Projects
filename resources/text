@@ -1,0 +1,12 @@
+How to clear Cache::    
+Use this commands 
+    1. php artisan config:clear 
+    2. php artisan cache:clear 
+    3. php artisan config:cache (*3)
+
+
+How to clear Vendor Error::
+1. delete vendor folder in your project 
+2. use this command 
+    => composer install 
+    => composer update
